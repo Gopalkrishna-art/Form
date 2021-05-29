@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./project3.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h5> Checkout</h5>
+        </header>
+        <section>
+            <div class="sectionA">
+            <form>
+                <h3> Contact Information</h3>
+                <label>
+                    <div>E-mail</div>
+                    <i class="fa fa-envelope icon"></i> 
+                    <input type="email" name="email" placeholder="Enter your email..">
+                </label>
+       
+                <label >
+                    <div>Phone</div>
+                    <i class="fa fa-phone icon"></i>
+                    <input type="number" name="phno" placeholder="Enter your phone...">
+                </label>
+       
+            </form>
+                <form>
+                    <h3> Shipping Address</h3>
+                    <label>
+                        <div>Full name</div>
+                        <i class="fa fa-user icon"></i>
+                        <input type="text" name="fullname" placeholder="Enter your name...">
+                    </label>
+                    <label >
+                        <div>Address</div>
+                        <i class="fa fa-building icon"></i>
+                        <input type="text" name="address" placeholder="Your address..">
+                    </label>
+                    <label >
+                        <div> City</div>
+                        <i class="fa fa-home icon"></i>
+                        <input type="text" name="city" placeholder="Your city..">
+                    </label>
+                    
+                    <label >
+                        <div>Country</div>
+                        <i class="fa fa-globe icon"></i>
+                    <select>
+                    <option>Your country...</option>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                    <option>America</option>
+                    <option>China</option>
+                    </select>
+                    </label>
+                    <label class="postal">
+                        <div > Postal code</div>
+                        <i class="fa fa-rocket icon"></i>
+                        <input type="number" name="Postalcode" placeholder="Your postal code..">
+                    </label>
+                    
+                    <label >
+                        <br>
+                        <input type="checkbox" value="save-the-data"> 
+                        <div class="info">
+                        Save the Information for the next time
+                        </div>
+                        <div class="gobutton">
+                          <p>Continue</p>
+                      </div>
+                    </label>
+                </form>
+            </div>
+            <div class="sectionB">
+                <div class="box a">
+                    <img src="photo1.png" alt="opt" >
+                    <div>
+                        Vintage Backbag  <br>
+                        <span class="span1">$54.99</span> <span class="span2"> $94.99</span>
+                        <br> <br> <br>
+                        <div class="cart"><pre> -  1   +</pre> </div>
+                    </div>
+                </div>
+                <div class="box b">
+                    <img src="photo2.png" alt="opt">
+                    <div>
+                     Levi shoes    <br>
+                     <span class="span1">$74.99</span> <span class="span2"> 124.99</span>
+                     <br> <br> <br> 
+                     <div class="cart"><pre>-  1  +</pre></div>
+                    </div>
+                </div>
+                <div class="shipping">
+                    <span> Shipping</span> $19
+                </div>
+                <div class="total">
+                    <span>Total</span>  $148.98
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
