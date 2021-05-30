@@ -188,26 +188,40 @@ left: -22px;
 margin-top: 40px;
 }
 
-@media only screen and (max-width: 740px) {
-
+@media only screen and (max-width: 415px) {
+header > h2{
+margin-left: 0px;
+font-weight: 600;
+font-style: normal;
+font-size: 24px;
+line-height: 29.26px;
+}
 .container{
 flex-direction: column;
 }
-header{
 
-}
 .left{
 order: 1;
 }
 
 .sectionB,.left{
-margin-left: 60px;
+margin-left: 0px;
 }
-header > h2 {
-margin-left: 60px;
+.sectionB{
+margin-top: -52px;
+width: 305px;
+height: 489px;
 }
 footer{
 margin-top: 10px;
 }
-
+.left label{
+width: 299px;
+}
+input,select {
+width: 297px;
+}
+button{
+margin-left: 127px;
+}
 }
