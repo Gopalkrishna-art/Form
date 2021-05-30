@@ -1,190 +1,213 @@
-*{ font-family: 'Montserrat', sans-serif;
-    
-    font-size: 17px;}
-.container
-{
-    display: flex;
-    flex-direction: column;
+*{
+    font-family:  'Montserrat', sans-serif;
 }
-header
-{
-    width: 70%;
-    height: 10vh;
-    margin-left: 260px;
-}
-section
-{
-    width:70%;
-    height: 90vh;
-    margin-left: 260px;
-    display: flex;
-}
-header > h5
-{
-    font-size: 1.6em;
-    margin: 2.5vh 0;
-}
-.sectionA
-{
-    width: 50%;
-}
-.sectionB
-{
- border: 1px solid;
-    width: 310px;
-    height: 450px;
-    border-radius: 0.5em;
-    padding: 0.5em;
-margin-top: 60px;;
-}
-.sectionA input[type='text'],.sectionA input[type='email'], 
-.sectionA input[type='number'] ,select
-{
-    width: 85%;
-    height: 3em;
-    border-radius: 0.5em;
-    border : 1px rgb(212, 206, 206) solid;
-    padding-left: 40px;
-}
-.sectionA 
-{ 
-    margin-top: 8px;
-    font-size: 0.7em;
+header,footer{
+height: 100px;
+background-color: white;
 }
 
+header > h2{
+margin-left: 260px;
+font-weight: 600;
+font-style: normal;
+font-size: 36px;
+line-height: 43.88px;
+}
+.container{
+display:flex;
+flex-direction: row;
+background-color: white;
+}
+.left{
+display: flex;
+flex-direction: column;
+background-color: white;
+margin-left: 260px;
+}
+
+.left h4{
+font-weight: 600;
+font-style: normal;
+font-size: 18px;
+line-height: 21.94px;
+}
+.left label{
+font-weight: 600;
+font-style: normal;
+font-size: 12px;
+line-height: 14.63px;
+color: #4F4F4F;
+}
+input,select{
+padding-left: 30px;
+width: 465px;
+height: 56px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+margin-left: -22px;
+
+}
+h3{
+margin-top: 50px;
+}
+.placeholder{
+margin-left: 10px;
+}
+
+.left i{
+position: relative;
+left: 10px;
+width: 20px;
+height: 16px;
+}
+select{
+width: 47%;
+background-color: white;
+}
+input[type="number"]{
+width: 99%;
+
+}
+input[type="checkbox"]{
+width:21px;
+height: 21px;
+margin-left: 10px;
+}
 .postal
 { 
-    display: inline-block;
+display: inline-block;
 }
-.postal input[type='number']
-{ 
-    width: 92%;
+footer{
+display: flex;
+font-family: 'Montserrat Alternates', sans-serif;
+font-style: normal;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+justify-content: center;
+align-items: flex-end;
+margin-top: 250px;
+color: grey;
 }
-select 
-{
-    width:43%;
-    background-color: white;
-    padding: 2px 0;
-    
+.right h4,p{
+font-size: 16px;
+line-height: 19.5px;
+font-weight: 600px;
+font-style: normal;
 }
-.info
-{ 
-    display: inline-block;
-    font-size: 0.8em;
-    margin: 0;
+span{
+font-size: 16px;
+line-height: 19.5px;
+margin-top: 0px;
 }
-.gobutton
-{
-  width: 166px;
-    height: 28px;
-    background-color: #f2994a;
-    border-radius: 2.5em;
-    padding: 0px 45px;
-    box-sizing: border-box;
-    margin-left: 52%;
+.col h4{
+font-size: 16px;
+line-height: 19.5px;
+font-style: normal;
 }
-.gobutton p{
-  display: flex;
- align-self: center;
-    text-decoration: none;
-    color:white;
-    font-size: 1.5em;
+.info{
+display: inline-block;
+}
+button{
+width: 166px;
+height: 56px;
+color: #FFFFFF;
+background-color: #F2994A;
+border-radius: 12px;
+margin-left: 300px;
 }
 .sectionB
 {
-    display: flex;
-    flex-direction: column;
+
+width: 310px;
+height: 450px;
+border-radius: 0.5em;
+padding: 0.5em;
+margin-top: 60px;
+margin-left: 200px;
+
+background-color: #F2F2F2;
 }
 .box{
-    width: 100%;
-    height: 150px;
-    margin-top: 10px;
-    display: flex;
+width: 100%;
+height: 150px;
+margin-top: 10px;
+display: flex;
 }
 .box img
 { 
-    object-fit: fill;
-    height: 125px;
-    border-radius: 0.5em;
+object-fit: fill;
+height: 125px;
+border-radius: 0.5em;
 }
 .box div 
 {
-    width: 60%;
-    margin: 0 15px;
+width: 60%;
+margin: 0 15px;
 }
 .span1
 {
-    font: size 1.2em;;
-    color: #f2994a;
+font: size 1.2em;;
+color: #f2994a;
 }
 .span2
 {
-    font-size: 0.8em;
-    margin: 20px;
+font-size: 0.8em;
+margin: 20px;
+text-decoration: line-through;
 }
 .cart
 {
-    height: 2.5em;
-    border-radius: 0.5em;
-    box-sizing: border-box;
-    margin-top: 0 0;
-    padding: 10px 45px;
-    border : 1px rgb(223, 215, 215) solid;
+height: 2.5em;
+border-radius: 0.5em;
+box-sizing: border-box;
+margin-top: 0 0;
+padding: 10px 45px;
+border : 1px rgb(223, 215, 215) solid;
 }
 .box2{ margin-bottom: 60px;}
 .shipping, .total
 {
-    height: 3em;
-    font-weight: 600;
-    font-size: medium;
-    border-top: 1px rgb(216, 206, 206) solid;
-    padding-top: 8px;
+height: 3em;
+font-weight: 600;
+font-size: medium;
+border-top: 1px rgb(216, 206, 206) solid;
+padding-top: 8px;
 }
 .shipping span, .total span 
 {
-    margin-right: 65%;
+margin-right: 65%;
 }
 .cart > pre{
-  position: relative;
-  top: -15px;
-    left: -22px;
+position: relative;
+top: -15px;
+left: -22px;
+}
+.shipping{
+margin-top: 40px;
 }
 
-@media all and (max-width:640px )
-{
-    header , section 
-    { 
-        width: 100%;
-    
-    }
-    
-    section
-    {
-        flex-direction: column-reverse;
-        justify-content: flex-end;
-    }
-    .sectionA
-    { 
-         margin: 20px;
-        width: 100%;
-    }
-    .sectionB
-    {  
-         margin: 20px;
-        width: 80%;
-    }
-    .sectionA input[type='text'],.sectionA input[type='email'], 
-    .sectionA input[type='number'] ,select
-    {
-       
-        width: 80%;
-      
-        height: 3em;
-    }
-    select { width: 40%;}
-    .postal
-    { 
-    width: 48%;
-    margin-left: 8px;
-    }
+@media only screen and (max-width: 740px) {
+
+.container{
+flex-direction: column;
+}
+header{
+
+}
+.left{
+order: 1;
+}
+
+.sectionB,.left{
+margin-left: 60px;
+}
+header > h2 {
+margin-left: 60px;
+}
+footer{
+margin-top: 10px;
+}
+
 }
